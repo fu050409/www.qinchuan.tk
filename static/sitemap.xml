@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset>	
+<url>
+<loc>http://www.qinchuan.tk</loc>
+<priority>1.00</priority>
+<lastmod>2019-06-26</lastmod>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>http://www.qinchuan.tk/static/announcement.html</loc>
+<priority>0.5</priority>
+<lastmod>2019-06-26</lastmod>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>http://www.qinchuan.tk/static/solve.html</loc>
+<priority>0.5</priority>
+<lastmod>2019-06-26</lastmod>
+<changefreq>weekly</changefreq>
+</url>
+</urlset>
