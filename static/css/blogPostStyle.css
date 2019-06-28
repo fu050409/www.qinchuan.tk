@@ -41,6 +41,20 @@ header nav a {
 	font-weight: 200;
 	color: rgba(146,146,146,1.00);
 }
+#content #mainContent h4 {
+	/*Captions ot Taglines */
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	color: rgba(146,146,146,1.00);
+}
+#content #mainContent h5 {
+	/*Captions ot Taglines */
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	color: rgba(146,146,146,1.00);
+}
 #content #mainContent #bannerImage {
 	/*Container for main banner image */
 	width: 100%;
@@ -48,10 +62,10 @@ header nav a {
 }
 #content #mainContent p {
 	/* All paragraphs under maincontent */
-	color: rgba(146,146,146,1.00);
+	color: rgb(146, 146 ,146);
 	font-family: source-sans-pro, sans-serif;
-	font-style: normal;
-	font-weight: 200;
+	/* font-style: normal; */
+	/* font-weight: 200; */
 	text-align: justify;
 }
 #content #mainContent #authorInfo {
