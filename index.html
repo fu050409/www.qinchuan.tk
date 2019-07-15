@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,6 +23,29 @@
 </head>
 <body>    
 <!-- Hero section -->
+<p id ='warn'></p>
+<style>
+.declare-wrap {
+    margin-top: -10px;
+    padding-bottom: 5px;
+    background: #fff;
+    display: none;
+}
+.declare {
+    background: #f9f4d9;
+    color: #8f7f5d;
+    padding: 10px 15px;
+    position: relative;
+    *zoom: 1;
+
+</style>
+<script>
+host = window.location.host;
+if(host=='fu050409.gitee.io'){
+document.getElementById('warn').innerHTML="<div class='declare-wrap' id='J-declare-wrap' style='display: block;'><div class='declare' id='J-declare'>注意：本站是由于百度无法收录主站而搭建，同步不定期，最新内容详见<a class='declare-details' target='_blank' href='https://www.qinchuan.tk'>主站&gt;&gt;</a><div class='close-btn' id='J-declare-close'><em class='cmn-icon cmn-icons cmn-icons_close'></em></div></div></div>"
+}
+</script>
+
 <section id="hero" class="text-white tm-font-big tm-parallax">
   <!-- Navigation -->
   <nav class="navbar navbar-expand-md tm-navbar" id="tmNav">              
