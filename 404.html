@@ -14,7 +14,7 @@ a { color: #4183c4; text-decoration: none; }       a:hover { text-decoration: un
 <div class="container">     
 <h1>404</h1>    
 <p><strong>Page not found</strong></p>    
-  <p>     你访问的URL不存在，当你看到此页面，证明你访问的是中国秦川联盟</p><p id="server">Github</p>服务器，你确定你访问的是一个正确的服务器？</p>
+  <p id="server">你访问的URL不存在，当你看到此页面，证明你访问的是中国秦川联盟Github服务器，你确定你访问的是一个正确的服务器？</p>
   <p>试试<a href="https://www.qinchuanunion.tk/">www.qinchuanunion.tk</a><br>   </p>  
 <p>       
 <!--<a href="https://help.github.com/pages/">Read the full documentation</a>         for more information about using <strong>GitHub Pages</strong>.       </p>  -->
@@ -22,8 +22,9 @@ a { color: #4183c4; text-decoration: none; }       a:hover { text-decoration: un
 <!--<a href="/" class="logo logo-img-1x">-->
   <script>
     host = window.location.host;
-    if(host=="fu050409.gitee.io){
-       document.getElementById("server").innerHTML="Gitee";
+    if(host=="fu050409.gitee.io"){
+       //document.getElementById("demo").innerHTML = "Hello javascript!";
+       document.getElementById("server").innerHTML = "你访问的URL不存在，当你看到此页面，证明你访问的是中国秦川联盟Gitee服务器，你确定你访问的是一个正确的服务器？";
     }
   </script>
 </body>
