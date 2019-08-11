@@ -51,10 +51,7 @@
     padding: 10px 15px;
     position: relative;
     *zoom: 1;
-
 </style>
-
-
 <section id="hero" class="text-white tm-font-big tm-parallax">
   <!-- Navigation -->
   <nav class="navbar navbar-expand-md tm-navbar" id="tmNav">              
@@ -68,7 +65,6 @@
 		<ul class="navbar-nav ml-auto">
 		  <li class="nav-item"> <a class="nav-link tm-nav-link" href="#introduction">关于</a> </li>
 		  <li class="nav-item"> <a class="nav-link tm-nav-link" href="#work">解决方案</a> </li>
-
 			
 		  <li class="nav-item">
 			  <a class="nav-link tm-nav-link" href="#contact">联系我们</a>
@@ -77,7 +73,6 @@
 	  </div>        
 	</div>
   </nav>
-
   <div class="text-center tm-hero-text-container">
 	<div class="tm-hero-text-container-inner">
 		<h2 class="tm-hero-title">中国秦川联盟</h2>
@@ -86,7 +81,6 @@
 		</p>
 	</div>        
   </div>
-
   <div class="tm-next tm-intro-next">
 	<a href="#introduction" class="text-center tm-down-arrow-link">
 	  <i class="fas fa-3x fa-caret-down tm-down-arrow"></i>
@@ -98,7 +92,6 @@ host = window.location.host;
 if(host=='fu050409.gitee.io'){
 document.write("<br><br><div class='declare-wrap' id='J-declare-wrap' style='display: block;'><div class='declare' id='J-declare'>注意：本站是由于百度无法收录主站而搭建，同步不定期，最新内容详见<a class='declare-details' target='_blank' href='https://www.qinchuan.tk'>主站&gt;&gt;</a><div class='close-btn' id='J-declare-close'><em class='cmn-icon cmn-icons cmn-icons_close'></em></div></div></div><br><br>")
 }
-
 var u = navigator.userAgent;
  
 //Android终端
@@ -110,9 +103,7 @@ var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
 if(isiOS){
     //如果为iOS
 document.write("<br><br><div class='declare-wrap' id='J-declare-wrap' style='display: block;'><div class='declare' id='J-declare'>注意：由于iOS屏蔽了一些插件，我们将在近期内结束对iOS系统的支持！请尽快更换安卓手机！<a class='declare-details' target='_blank' href='https://www.vmall.com/product/10086102942203.html'>华为P30购买&gt;&gt;</a><div class='close-btn' id='J-declare-close'><em class='cmn-icon cmn-icons cmn-icons_close'></em></div></div></div><br><br>")
-
 }
-
 	  
 </script>
 <section id="introduction" class="tm-section-pad-top">
@@ -141,7 +132,6 @@ document.write("<br><br><div class='declare-wrap' id='J-declare-wrap' style='dis
 		</div>
 	  </div>
 	</div>
-
 	<div class="row tm-section-pad-top">
 	  <div class="col-lg-4">
 <h4 class="text-center tm-text-primary mb-4">合作组织</h4>
@@ -209,7 +199,21 @@ FREET安全组<br>
     </div>
   </div>
 </section>
-
+	<section id="work" class="tm-section-pad-top">
+  <div class="container tm-container-gallery">
+	<div class="row">
+	  <div class="text-center col-12">
+	    <h2 class="tm-text-primary tm-section-title mb-4">行动规划</h2>
+	    <p class="mx-auto tm-work-description">行动规划一览。 &nbsp; &nbsp; <br>
+        </p>
+	    <a href="./project.html" class="tm-intro-text tm-btn-primary">行动规划</a>
+	  </div>            
+	</div>
+	<div class="row">
+		<div class="col-12"> <br><br></div>        
+    </div>
+  </div>
+</section>
 <!-- Contact -->
 <section id="contact" class="tm-section-pad-top tm-parallax-2">
   <div class="container tm-container-contact">
@@ -246,18 +250,15 @@ FREET安全组<br>
     </p>
   </footer>
 </section>
-
 <script src="./static/js/jquery-1.9.1.min.js"></script>     
 <script src="./static/slick/slick.min.js"></script>
 <script src="./static/magnific-popup/jquery.magnific-popup.min.js"></script>
 <script src="./static/js/jquery.singlePageNav.min.js"></script>     
 <script src="./static/js/bootstrap.min.js"></script> 
 <script>
-
   function getOffSet(){
 	var _offset = 450;
 	var windowHeight = window.innerHeight;
-
 	if(windowHeight > 500) {
 	  _offset = 400;
 	} 
@@ -267,23 +268,19 @@ FREET安全组<br>
 	if(windowHeight > 830) {
 	  _offset = 210;
 	}
-
 	return _offset;
   }
-
   function setParallaxPosition($doc, multiplier, $object){
 	var offset = getOffSet();
 	var from_top = $doc.scrollTop(),
 	  bg_css = 'center ' +(multiplier * from_top - offset) + 'px';
 	$object.css({"background-position" : bg_css });
   }
-
   var background_image_parallax = function($object, multiplier, forceSet){
 	multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
 	multiplier = 1 - multiplier;
 	var $doc = $(document);
 	// $object.css({"background-attatchment" : "fixed"});
-
 	if(forceSet) {
 	  setParallaxPosition($doc, multiplier, $object);
 	} else {
@@ -292,7 +289,6 @@ FREET安全组<br>
 	  });
 	}
   };
-
   var background_image_parallax_2 = function($object, multiplier){
 	multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
 	multiplier = 1 - multiplier;
@@ -302,9 +298,7 @@ FREET安全组<br>
 	  var firstTop = $object.offset().top,
 		  pos = $(window).scrollTop(),
 		  yPos = Math.round((multiplier * (firstTop - pos)) - 186);              
-
 	  var bg_css = 'center ' + yPos + 'px';
-
 	  $object.css({"background-position" : bg_css });
 	});
   };
@@ -318,7 +312,6 @@ FREET安全组<br>
 	window.addEventListener('resize', function(){
 	  background_image_parallax($(".tm-parallax"), 0.30, true);
 	}, true);
-
 	// Detect window scroll and update navbar
 	$(window).scroll(function(e){          
 	  if($(document).scrollTop() > 120) {
@@ -332,7 +325,6 @@ FREET安全组<br>
 	$('#tmNav a').on('click', function(){
 	  $('.navbar-collapse').removeClass('show'); 
 	})
-
 	// Scroll to corresponding section with animation
 	$('#tmNav').singlePageNav();        
 	
@@ -342,7 +334,6 @@ FREET安全组<br>
 	  if (this.hash !== "") {
 		event.preventDefault();
 		var hash = this.hash;
-
 		$('html, body').animate({
 		  scrollTop: $(hash).offset().top
 		}, 400, function(){
@@ -350,14 +341,12 @@ FREET安全组<br>
 		});
 	  } // End if
 	});
-
 	// Pop up
 	$('.tm-gallery').magnificPopup({
 	  delegate: 'a',
 	  type: 'image',
 	  gallery: { enabled: true }
 	});
-
 	// Gallery
 	$('.tm-gallery').slick({
 	  dots: true,
