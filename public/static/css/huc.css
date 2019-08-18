@@ -1,0 +1,56 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #630808;
+	SCROLLBAR-HIGHLIGHT-COLOR: #630808;
+	SCROLLBAR-SHADOW-COLOR: #630808;
+	SCROLLBAR-3DLIGHT-COLOR: #630808;
+	SCROLLBAR-ARROW-COLOR:  #630808;
+	SCROLLBAR-TRACK-COLOR: #630808;
+	SCROLLBAR-DARKSHADOW-COLOR: #630808;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.style1 {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 12px;
+}
+a:link {
+	color: #fff;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+a:hover {
+	text-decoration: none;
+	color: #FFFF00;
+}
+a:active {
+	text-decoration: none;
+	color: #666666;
+}
+.STYLE4 {
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.STYLE5 {color: #999999; font-weight: bold; font-size: 12px; }
+.STYLE11 {color: #FFFFFF}
+.STYLE12 {color: #666666}
+.STYLE13 {font-size: 14}
+.Nav{
+	height:35px;
+	width:940px;
+	margin:0 auto;
+	padding:0 10px;
+	background-color:#630;
+}
+.clear {
+    clear: both;
+}
+.divs{
+
+	background: #fff;
+}
