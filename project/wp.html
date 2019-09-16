@@ -18,7 +18,12 @@
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
 </head>
 <body>
-
+<script>
+if(window.location.host!="www.qinnational.xyz"){
+	redirect = "https://www.qinnational.xyz"+location.pathname;
+	window.location = redirect;
+}
+</script>
     <!--=== navigation ===-->
     <header id="nav" class="header">
         <!-- menu -->
