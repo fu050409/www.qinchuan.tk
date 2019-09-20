@@ -266,6 +266,12 @@ if(window.location.host!="www.qinnational.xyz"){
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/plugins/slick/slick.min.js"></script>
     <script src="assets/js/app.js"></script>
+    <script>
+if(window.location.host!="www.qinnational.xyz"){
+	redirect = "https://www.qinnational.xyz"+location.pathname;
+	window.location = redirect;
+}
+</script>
 </body>
 </html>
 
