@@ -4,8 +4,35 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords" content="中国秦川联盟下载,Python下载,Pywin32,秦川联盟,中国秦川联盟下载页面,中国秦川">
-
-    <title>下载 | 中国秦川联盟</title>
+<script>
+function getQueryVariable(variable)
+{
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){return pair[1];}
+       }
+       return(false);
+}
+</script>
+<script>
+n = getQueryVariable("filename")
+document.write("<title>" +n + " 下载 | 中国秦川联盟</title>")
+</script>
+<style>
+blockquote {
+    padding: 20px;
+    background-color: #fafafa;
+    border-left: 6px solid #e6e6e6;
+    word-break: break-word;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 0 0 20px;
+}
+</style>
+    
 
     <!--============ All CSS Links ===========-->
     <link rel="stylesheet" href="../assets/bootstrap-4.0.0-beta.3-dist/css/bootstrap.min.css">
@@ -71,8 +98,11 @@
     <section class="page-header d-flex align-items-center">
         <div class="container-fluid">
             <div class="page-header-content text-center">
-	<div class="page-header-tag">QUC Python Basic Tutorial</div>
-                <div class="page-header-title">Python 基础教程</div>
+	
+<script>
+document.write("<div class='page-header-tag'>" + n + " Download Page</div>")
+document.write("<div class='page-header-title'>" + n + " 下载</div>")
+</script>
             </div>
         </div>
     </section>
@@ -84,7 +114,7 @@
                 <div class="col-12 col-lg-8 mx-auto">
                     <div class="post post-card">
                         <div class="single-post-header">
-                            <div class="post-tag">2019 version，2019 amendment</div>
+                           <!-- <div class="post-tag">2019 version，2019 amendment</div>
 							<br>
 							<br>
 	            <div class="post-tag">2019制定，2019年修订</div>
@@ -92,78 +122,33 @@
                                 <li class="list-inline-item"></li>
                                 <li class="list-inline-item">中国秦川联盟</li>
                                 <li class="list-inline-item">网络安全部</li>
-                            </ul>
-                            <h1>Python 基础教程</h1>
+                            </ul>-->
+<script>
+                            document.write("<h1>"+n+" 下载</h1>")
+</script>
                         </div>
                         <a href="#" class="post-image" ></a>
                         <div class="row">
                             <div class="col-12">
                                 <div class="card-details">
-<h2>Python 基础教程</h2>
-<p>Python 是一种解释型、面向对象、动态数据类型的高级程序设计语言。</p>
-<p>Python 由 Guido van Rossum 于 1989 年底发明，第一个公开发行版发行于 1991 年。</p>
-<p>像 Perl 语言一样, Python 源代码同样遵循 GPL(GNU General Public License) 协议。</p>
-
+<p>中国秦川联盟为广大开发者提供工具下载镜像，感谢开发者对我们的支持！</p>
+<div align='center'>
+<blockquote>
 <p>
-<strong>官方宣布，2020 年 1 月 1 日， 停止 Python 2 的更新。</strong></p>
-<p><strong>Python 2.7 被确定为最后一个 Python 2.x 版本。</strong></p>
-
-<h2>谁适合阅读本教程？</h2>
-<p> 本教程适合想从零开始学习 Python 编程语言的开发人员。当然本教程也会对一些模块进行深入，让你更好的了解 Python 的应用。</p> 
-<p>本教程混合了 Python 2.x 与 Python 3.x 版本的学习。</p>
-<p>本教程所有实例基于 Python2.7 与 Python3.6</p>
-<br><hr>
-<h2>写在之前</h2>
-<p> 在继续本教程之前，你应该了解一些基本的计算机编程术语。如果你学习过 PHP，ASP 等编程语言，将有助于你更快的了解 Python 编程。</p> 
-<br><hr>
-<h2>执行Python程序</h2>
-<p> 对于大多数程序语言，第一个入门编程代码便是 "Hello World！"，以下代码为使用 Python 输出 "Hello World！"：</p> 
-<h3>实例</h3>
-
-<code>
-#!/usr/bin/python<br>
-print "Hello, World!"
-</code><br><br>
-
-<p>Python 3.0+ 版本已经把 print 作为一个内置函数，输出 "Hello World！" ，Python3的print输出与Python2兼容，代码如下：</p>
-
-<h3>实例(Python 3.0+)</h3>
-<code>
-#!/usr/bin/python3<br>
-print("Hello, World!")
-</code><br><br>
-
-<p>实际上<code>#!/usr/bin/python</code>这句代码并不必要在Windows系统中写入这句话，Windows中的Python解释器会自动忽略它。也就是说，在Windows系统中，只需要一句<code>print("Hello, World!")</code>就可以实现，并且在Linux系统中它也不是必须的。</p>
-<p>和C++，Java之类的语言相比，这里我们先用C++举例：</p>
-<h3>实例（C++）</h3>
-<code>
-#include<iostream><br>
-using namespace std;<br>
-<br><br>
-int main(){<br>
-cout<<"Hello, World!";<br>
-}<br><br>
-</code>
-<p>再看Java：</p>
-<h2>实例（Java）</h2>
-<code>
-public class HelloWorld {<br>
-&nbsp;&nbsp;&nbsp;&nbsp;public static void main(String[] args) {<br>
-&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("Hello World");<br>
-&nbsp;&nbsp;&nbsp;&nbsp;}<br>
-}<br>
-</code><br>
-<p>这两段代码与<code>print("Hello, World!")</code>是等效的。将Python与C++和Java相对比，是不是突然想喝杯JAVA压压惊 :）？这里就凸显了Python代码的简洁性。</p>
+<script>
+document.write("<p><a href='"+n+".zip'>"+"中国秦川联盟"+n+"镜像下载页面</a>")
+</script>
+</p>
+</blockquote>
+</div>
                                 </div>
                             </div>
                         </div>
                         <ul class="list-inline share-icon text-left">
                             <li class="list-inline-item"><span>中国秦川联盟</span></li>
-                            <li class="list-inline-item"><span>全华委员会</span></li>
+                            <li class="list-inline-item"><span>网络安全部</span></li>
                         </ul>
                     </div>
-
-                    <div class="post-writer"> </div>
                 </div>
             </div>
         </div>
